@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
 }
 
 .App-logo {
@@ -20,3 +23,58 @@
 .App-link {
   color: #09d3ac;
 }
+
+ul {
+  padding-inline-start: 0px;
+  margin-left: 0px;
+}
+
+li {
+ list-style-type: none;
+ margin-bottom: 15px;
+ margin-top: 15px;
+ margin-left: 0px;
+}
+
+.title {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.title a {
+  color: rgb(187, 46, 31);
+  text-decoration: none;
+}
+
+.subtitle {
+  color: gray;
+  font-weight: 400;
+}
+
+.subtitle a {
+  color: black;
+}
+
+h1 a {
+    color: rgb(187, 46, 31);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.comment {
+  background-color: rgba(128, 128, 128, 0.1411764705882353);
+  padding: 10px;
+}
+
+.comment-text {
+  line-height: 120%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+
